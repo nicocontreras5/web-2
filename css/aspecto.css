@@ -1,0 +1,317 @@
+body{
+    background-image:url(imagenes/background.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    margin-top: 100px;
+}
+#template-vue-comentarios p{
+    color: rgb(241, 227, 227);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#alert{
+    font-size: 160%;
+    color: rgb(241, 227, 227);
+    margin-left: 10%;
+}
+.titulo-art{
+    text-align: center;
+}
+
+.promedio{
+    color: rgb(241, 227, 227);
+    font-size: 250%;
+}
+
+.btn-foto{
+    padding: 2%;
+    margin-left: 37%;
+    margin-top: 5%;
+}
+
+h1{
+    color: rgb(241, 227, 227);
+    font-family: 'Times New Roman', Times, serif; 
+}
+.nav-name-user{
+    color:  rgb(241, 227, 227);
+    margin-top: 2.5%;
+}
+
+.hidden{
+    display: none;
+}
+
+h5{
+    
+    color: rgb(241, 227, 227);
+}
+
+h4{
+    color: rgb(241, 227, 227);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    color: rgb(241, 227, 227);
+font-family: 'Times New Roman', Times, serif;
+}
+.icono{
+    font-size: 200%;
+    margin-right: 1%;
+    color: #ff8C00;
+}
+
+.estrellas{
+    color: #ff8C00 ;
+}
+#logo{
+    width: 130px;
+    height: 55px;
+}
+
+#barra-nav{ 
+    text-align: center;
+    background: rgba(0, 0, 0, 0.589);
+    margin: 0 5% 5% 5%;
+    border-image: linear-gradient(417deg, #ff0000, #ff8C00, #ffd700);
+    border-bottom-style: solid;
+    border-image-slice: 1%; 
+}
+
+#barra-nav li{
+    transition: 0.4s;
+    margin: 0 2%;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1% 0%;
+}
+
+#barra-nav li:hover{
+    transition: 0,5s;
+    background-color: rgba(255, 140, 0, 0.87);
+    padding: 1% 2%;
+    border-radius: 8px; 
+}
+
+.btn:hover{
+    background-color: rgb(255, 123, 0);
+    box-shadow: 0 9px 10px 1px rgba(0,0,0,0.24);
+}
+.contenedor-repuesto{
+    margin: 0 10% 3% 10%;
+}
+
+.datos-rep{
+    background:rgba(255, 140, 0, 0.87);
+    padding: 4%;
+}
+
+.precio{
+    font-size: 270%;
+    color: rgb(241, 227, 227);
+    margin-bottom: 6%;
+    padding: 3%;
+}
+
+.div-datos-rep{
+    background: rgba(75, 75, 75, 0.808);
+    padding: 2% 0%;
+    margin: 0% 2% 3% 3%;
+    border-radius: 4px;
+    
+}
+.btn{
+    border-style: solid;
+    border-color: rgb(255, 123, 0);
+    border-width: 2px;
+    background-color: rgba(255, 255, 255, 0.534);
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+}
+
+.bg-contenedor{
+    margin: 0 5% 3% 5%;
+    border: 1%;
+    border-style: solid;
+    border-color:  rgba(0, 0, 0, 0.589);
+    background-color: rgba(128, 128, 128, 0.822);
+    color: black;
+    padding: 0 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#img-marcas{
+    width: 80%;
+    height: auto;
+    margin: 0 8%;
+}
+
+.img-partes{
+    margin: 3% 3%;
+    width: 40%;
+    height: auto;
+}
+
+thead{
+    background: linear-gradient(417deg, #ff0000, #ff8C00, #ffd700);
+    border-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg-contenedor table{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    margin: 0 10% 3% 10%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+td {
+    padding: 1%;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+.cel-mail{
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+#img-contacto{
+    float: right;
+    width: 30%;
+    height: auto;
+}
+
+#estado{
+    color: orange;
+    margin-left: 5%;
+    background-color: rgba(128, 128, 128, 0.822);
+    display:none;
+}
+
+.categoriaTitle{
+    color: orange;
+   margin-left: 32.5%;
+    
+}
+
+
+.list-group li {
+    transition: 0.2s;
+    color: rgb(255, 255, 255);
+    background-color: rgba(43, 43, 43, 0.808);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.list-group li:hover{
+    transition: 0.2s;
+    background-color: rgba(255, 140, 0, 0.87);
+    padding: 8% 7%;
+}
+
+.card-body a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.border{
+    background: rgba(75, 75, 75, 0.808);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.603);
+}
+
+.bg-contenedor article{
+    margin: 3% 0;
+}
+
+.bg-titulo{
+    background:rgba(255, 140, 0, 0.87);
+}
+
+label{
+    color: rgb(255, 255, 255);
+}
+
+#catalogo article a img{
+    transition: 0.5s;
+    padding: 5% 5%;
+}
+
+#catalogo article a img:hover{
+    transition: 0.5s;
+    padding: 0.5%;
+}
+
+.resaltado-table{
+    background-color: rgba(219, 213, 213, 0.753);
+}
+
+#input-filer{
+    margin-left: 60%;
+    margin-top: 2%;
+}
+
+@media (max-width: 800px) {
+    #logo{
+        width: 80px;
+        height: 40px;
+    }
+    .form-input{
+        font-size: 80%;
+    }
+
+    .bg-contenedor table{
+        font-size: 50%;
+    }
+
+    #barra-nav{
+        background-color: rgba(0, 0, 0, 0.781);
+    }
+
+    .div-datos-rep{
+        margin: 0;
+    }
+
+    .btn{
+        width: 60px;
+        height: 20px;
+        font-size: 7px;
+        border-width: 1.5px;
+        margin-top: 15px;
+        line-height: 5px;
+    }
+
+    form p{
+        margin-bottom: 2%;
+    }
+
+    h1{
+        font-size: 170%;
+        text-align: center;
+    }
+
+    p{
+        font-size: 80%;
+    }
+
+    h4{
+        font-size: 130%;
+    } 
+    
+}
+
