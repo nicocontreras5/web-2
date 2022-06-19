@@ -1,4 +1,27 @@
-{literal}
+<?php
+/* Smarty version 3.1.33, created on 2022-06-20 00:10:07
+  from 'C:\xampp\htdocs\web-2\templates\vue\comentarios.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.33',
+  'unifunc' => 'content_62af9ebf041a77_75612797',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '55a865e0a09898a39133f3c0e26fd116ca39b20b' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\web-2\\templates\\vue\\comentarios.tpl',
+      1 => 1655676600,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_62af9ebf041a77_75612797 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <section class="mt-3" id="template-vue-comentarios">
     
     <div v-if="loading" class="card-body">
@@ -46,4 +69,5 @@
     </div> 
   
 </section>
-{/literal}
+<?php }
+}

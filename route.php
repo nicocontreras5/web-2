@@ -20,9 +20,11 @@ $CategoriasController = new CategoriasController();
 $StaticViewsController = new StaticViewsController();
 $LoginController = new LoginController();
 $AdminController = new AdminController();
+
 if($action == ''){
     $StaticViewsController->InicioView();
 }else{
+  
     if (isset($action)){
         $partesURL = explode("/", $action);
         if($partesURL[0] == "inicio"){

@@ -89,7 +89,7 @@ async function getComentariosOrdenados() {
     let ordenar = document.querySelector("select[name=ordenar]").value;
     let forma= document.querySelector("select[name=forma]").value;
     try {
-        let r = await fetch("Api/repuestos/"+id_articulo+"/comentarios?orderBy="+ordenar+"&order="+forma);
+        let r = await fetch("Api/repuestos/"+id_articulo+"/comentarios&orderBy="+ordenar+"&order="+forma);
         if (r.ok) {
             let comentarios = await r.json();
             app.comentarios = comentarios; 

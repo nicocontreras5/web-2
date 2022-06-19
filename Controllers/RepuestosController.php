@@ -40,12 +40,13 @@ class RepuestosController {
     }
     
     public function GetArticulo($id){
-
+    
         $Articulo = $this->ArticulosModel->GetArticulo($id,$this->adm);
 
         if($Articulo){
 
             $imagenes= $this->ImagenesModel->getImagenesArticulo($id);
+
             $this->RepuestosView->DisplayArticulo($Articulo,$this->adm,$imagenes);
         }else{
             $error= "No se encontro el articulo con id: ". $id;

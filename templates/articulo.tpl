@@ -66,8 +66,8 @@
                                         {/if}
                                     </div>
                         </div>  
-                        <section id="div-data" data-id_articulo="{$Articulo->id_articulo}" data-id_usuario="{$user->id_usuario}"
-                                data-usuario="{$user->administrador}" class="col-lg-7 col-md-10 mb-4 ml-2 border border-light card h-100">
+                        <section id="div-data" data-id_articulo="{$Articulo->id_articulo}"    {if isset($user)} data-id_usuario="{$user->id_usuario}"
+                                data-usuario="{$user->administrador}"    {/if} class="col-lg-7 col-md-10 mb-4 ml-2 border border-light card h-100">
                                 <h3 class="d-inline mt-4 mb-4">Opiniones sobre el producto</h3>
                                 
                                 {include file="vue/comentarios.tpl"}
